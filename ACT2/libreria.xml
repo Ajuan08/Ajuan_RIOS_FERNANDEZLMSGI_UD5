@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet href="../ACT2/libreria.xsl" type="text/xsl"?>
+<libreria>
+    <libros>
+        <autor>Kenny Erleben</autor>
+        <titulo>Physics-based animation</titulo>
+        <editorial>Charles River Media</editorial>
+        <precio>20.06</precio>
+        <codLibro>4321</codLibro>
+        <numPaginas>150</numPaginas>
+    </libros>
+    <libros>
+        <autor>Carlos Garres</autor>
+        <titulo>Principio de seguridad informatica</titulo>
+        <editorial>Charles River Media</editorial>
+        <precio>13.00</precio>
+        <codLibro>3214</codLibro>
+        <numPaginas>110</numPaginas>
+    </libros>
+    <libros>
+        <autor>Alberto Sánchez</autor>
+        <titulo>Ejercicios complementarios de lógica digital</titulo>
+        <editorial>Dykinson</editorial>
+        <precio>30.12</precio>
+        <codLibro>1234</codLibro>
+        <numPaginas>100</numPaginas>
+    </libros>
+    <libros>
+        <autor>Alberto Sánchez</autor>
+        <titulo>Ejercicios complementarios de lógica digital</titulo>
+        <editorial>Dykinson</editorial>
+        <precio>9.50</precio>
+        <codLibro>1234</codLibro>
+        <numPaginas>300</numPaginas>
+    </libros>
+    <libros>
+        <autor>Alberto Sánchez</autor>
+        <titulo>Ejercicios complementarios de lógica digital</titulo>
+        <editorial>Dykinson</editorial>
+        <precio>10.00</precio>
+        <codLibro>1234</codLibro>
+        <numPaginas>50</numPaginas>
+    </libros>
+</libreria>
