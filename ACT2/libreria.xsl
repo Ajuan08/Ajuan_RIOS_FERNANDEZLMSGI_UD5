@@ -11,6 +11,8 @@
                 <th>Autor</th>
                 <th>Precio</th>
             </tr>
+            <!-- <xsl:for-each select="libreria/libros [autor='Alberto Sánchez']"/>-->
+            <xsl:for-each select="libreria/libros [autor!='Alberto Sánchez']"/>
             <xsl:for-each select="/libros">
             <xsl:sort select="precio" data-type="number"/>
             <tr>

@@ -41,4 +41,20 @@
         <codLibro>1234</codLibro>
         <numPaginas>50</numPaginas>
     </libros>
+    <libros>
+        <autor>Ana Sanchez</autor>
+        <titulo>Programa con Ana</titulo>
+        <editorial>Asynton</editorial>
+        <precio>10.50</precio>
+        <codLibro>3503</codLibro>
+        <numPaginas>200</numPaginas>
+    </libros>
+    <libros>
+        <autor>Ana Sanchez</autor>
+        <titulo>Lenguaje de marcas</titulo>
+        <editorial>Asynton</editorial>
+        <precio>60.50</precio>
+        <codLibro>0075</codLibro>
+        <numPaginas>250</numPaginas>
+    </libros>
 </libreria>

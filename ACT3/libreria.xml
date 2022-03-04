@@ -27,7 +27,7 @@
     </libros>
     <libros>
         <autor>Alberto Sánchez</autor>
-        <titulo>Ejercicios complementarios de lógica digital</titulo>
+        <titulo>Ejercicios digital</titulo>
         <editorial>Dykinson</editorial>
         <precio>9.50</precio>
         <codLibro>1234</codLibro>
@@ -35,10 +35,26 @@
     </libros>
     <libros>
         <autor>Alberto Sánchez</autor>
-        <titulo>Ejercicios complementarios de lógica digital</titulo>
+        <titulo>Ejercicios </titulo>
         <editorial>Dykinson</editorial>
         <precio>10.00</precio>
         <codLibro>1234</codLibro>
         <numPaginas>50</numPaginas>
+    </libros>
+    <libros>
+        <autor>Javier Manchego</autor>
+        <titulo>El nuiño del pijama de rayas </titulo>
+        <editorial>Anaya</editorial>
+        <precio>10.50</precio>
+        <codLibro>2402</codLibro>
+        <numPaginas>100</numPaginas>
+    </libros>
+    <libros>
+        <autor>Javier Manchego</autor>
+        <titulo>Pipi Calzarslargas</titulo>
+        <editorial>Anaya</editorial>
+        <precio>12.50</precio>
+        <codLibro>8291</codLibro>
+        <numPaginas>150</numPaginas>
     </libros>
 </libreria>
