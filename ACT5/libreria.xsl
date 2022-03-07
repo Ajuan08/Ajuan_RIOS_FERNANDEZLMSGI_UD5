@@ -3,48 +3,54 @@
 <xsl:template match="/">
 <html>
     <body>
-        <h1>Biblioteca personal de Antonio Juan</h1>
+        <h1>Ejemplo Plantilla</h1>
+      <xsl:apply-templates/>
+    </body>
+</html>
+</xsl:template>
+    <xsl:template match="libreria">
+        <h3>BIBLIOTECA PERSONAL DE ANTONIO JUAN</h3>
         <table>
-            <tr bgcolor="#2402SGV">
+            <tr bgcolor="887788">
                 <th>ISBN</th>
                 <th>Título</th>
                 <th>Autor</th>
                 <th>Precio</th>
+                <th>Num_Pag</th>
             </tr>
-            <xsl:for-each select="libreria/libros">
-            <tr>
-                <xsl:choose>
-                    <!--
-                    <xsl:when test="precio = 10.50 or precio = 60.50">
-                        <td bgcolor="#800080"><xsl:value-of select="codLibro"/></td>
-                        <td bgcolor="#800080"><xsl:value-of select="titulo"/></td>
-                        <td bgcolor="#800080"><xsl:value-of select="autor"/></td>
-                        <td bgcolor="#800080"><xsl:value-of select="precio"/></td>
-                    </xsl:when>
-                    <xsl:when test="precio != 10.50">
-                        <td><xsl:value-of select="codLibro"/></td>
-                        <td><xsl:value-of select="titulo"/></td>
-                        <td><xsl:value-of select="autor"/></td>
-                        <td><xsl:value-of select="precio"/></td>
-                    </xsl:when>
-                -->
-                <xsl:when test="precio &lt; 25">
-                        <td bgcolor="#FF0000"><xsl:value-of select="codLibro"/></td>
-                        <td bgcolor="#FF0000"><xsl:value-of select="titulo"/></td>
-                        <td bgcolor="#FF0000"><xsl:value-of select="autor"/></td>
-                        <td bgcolor="#FF0000"><xsl:value-of select="precio"/></td>
-                    </xsl:when>
-                    <xsl:when test="precio &gt; 25">
-                        <td bgcolor="#008000"><xsl:value-of select="codLibro"/></td>
-                        <td bgcolor="#008000"><xsl:value-of select="titulo"/></td>
-                        <td bgcolor="#008000"><xsl:value-of select="autor"/></td>
-                        <td bgcolor="#008000"><xsl:value-of select="precio"/></td>
-                    </xsl:when>
-                </xsl:choose>
-            </tr>
-            </xsl:for-each>   
+            <xsl:apply-templates select="libros"/>
         </table>
-    </body>
-</html>
-</xsl:template>
+    </xsl:template>
+
+    <xsl:template match="libros">
+        <tr>
+            <td><xsl:apply-templates select="codLibro"/></td>
+            <xsl:apply-templates select="titulo"/>
+            <xsl:apply-templates select="autor"/>
+            <td><xsl:apply-templates select="precio"/></td>
+
+            <xsl:choose>
+                <xsl:when test="numPaginas &gt; 150">
+                    <xsl:apply-templates select="numPaginas"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <td>
+                        <xsl:value-of select="numPaginas"/>
+                    </td>
+                </xsl:otherwise>
+            </xsl:choose>
+        </tr>
+    </xsl:template>
+
+    <xsl:template match="titulo">
+        <td bgcolor="#DDEEDD"><xsl:value-of select="."/></td>
+    </xsl:template>
+
+    <xsl:template match="autor">
+        <td bgcolor="#AABBAA"><xsl:value-of select="."/></td>
+    </xsl:template>
+
+    <xsl:template match="numPaginas">
+        <td bgcolor="#FF0000"><xsl:value-of select="."/></td>
+    </xsl:template>
 </xsl:stylesheet>
