@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet href="cd_p4.xsl" type="text/xsl"?>
+<cds>
+    <cd>
+        <titulo>Cicatrices</titulo>
+        <artista>Natos y Waors</artista>
+        <canciones tiempo="260">Cicatrices</canciones>
+        <canciones tiempo="220">A corazon Abierto</canciones>
+        <canciones tiempo="200">Caminaré</canciones>
+        <canciones tiempo="300">Bicho Raro</canciones>
+        <canciones tiempo="210">BestSellers</canciones>  
+        <sello>Natos y Waors</sello>
+        <anno>2018</anno>
+    </cd>
+
+    <cd>
+        <titulo>Le Crie de la Rue</titulo>
+        <artista>Ayax y Prok</artista>
+        <canciones tiempo="280">Casino</canciones>
+        <canciones tiempo="300">Yo la quiero mamá</canciones>
+        <canciones tiempo="240">El puchero de la abuela</canciones>
+        <canciones tiempo="230">Reza por mí</canciones>
+        <canciones tiempo="400">Word</canciones>  
+        <sello>Ayax y Prok</sello>
+        <anno>2021</anno>
+    </cd>
+
+    <cd>
+        <titulo>YHLQMDLG</titulo>
+        <artista>Bad Bunny</artista>
+        <canciones tiempo="200">La Dificil</canciones>
+        <canciones tiempo="240">Yo perreo sola</canciones>
+        <canciones tiempo="150">Que malo</canciones>
+        <canciones tiempo="190">Safaera</canciones>
+        <canciones tiempo="300">Esta cabron ser yo</canciones>  
+        <sello>Rimas Entertainment</sello>
+        <anno>2020</anno>
+    </cd>
+
+    <cd>
+        <titulo>Real hasta la muerte</titulo>
+        <artista>Anuel AA</artista>
+        <canciones tiempo="300">Na nuevo</canciones>
+        <canciones tiempo="400">Hipócrita</canciones>
+        <canciones tiempo="350">Bandolera</canciones>
+        <canciones tiempo="120">Yeezy</canciones>
+        <canciones tiempo="200">Quiero beber</canciones>  
+        <sello>Real Hasta la Muerte</sello>
+        <anno>2018</anno>
+    </cd>
+
+    <cd>
+        <titulo>KG0516</titulo>
+        <artista>Karol G</artista>
+        <canciones tiempo="300">200 copas</canciones>
+        <canciones tiempo="230">DVD</canciones>
+        <canciones tiempo="260">Location</canciones>
+        <canciones tiempo="124">El barco</canciones>
+        <canciones tiempo="350">Gato malo</canciones>  
+        <sello>UMLE - Latino</sello>
+        <anno>2021</anno>
+    </cd>
+
+    <cd>
+        <titulo>Yipiyou</titulo>
+        <artista>Fernando Costa</artista>
+        <canciones tiempo="100">Danger</canciones>
+        <canciones tiempo="600">Avisos Parentales</canciones>
+        <canciones tiempo="320">Pa que lo gozen</canciones>
+        <canciones tiempo="200">Narcolepsia</canciones>
+        <canciones tiempo="210">Dale</canciones>  
+        <sello>Mala Manera Music</sello>
+        <anno>2018</anno>
+    </cd>
+
+    <cd>
+        <titulo>LYKE MIKE</titulo>
+        <artista>Myke Towers</artista>
+        <canciones tiempo="140">Mirenme ahora</canciones>
+        <canciones tiempo="200">Pin pin</canciones>
+        <canciones tiempo="230">Lo invertí</canciones>
+        <canciones tiempo="210">Cuenta</canciones>
+        <canciones tiempo="300">Burberry</canciones>  
+        <sello>Warner Music Latina</sello>
+        <anno>2021</anno>
+    </cd>
+    
+    <cd>
+        <titulo>Colores</titulo>
+        <artista>J Balvin</artista>
+        <canciones tiempo="238">Amarillo</canciones>
+        <canciones tiempo="231">Rojo</canciones>
+        <canciones tiempo="320">Morado</canciones>
+        <canciones tiempo="110">Verde</canciones>
+        <canciones tiempo="241">Azul</canciones>  
+        <sello>Universal Music</sello>
+        <anno>2020</anno>
+    </cd>
+
+    <cd>
+        <titulo>Un alumno más</titulo>
+        <artista>Melendi</artista>
+        <canciones tiempo="210">La promesa</canciones>
+        <canciones tiempo="180">Tocado y Hundido</canciones>
+        <canciones tiempo="200">El amor es un arte</canciones>
+        <canciones tiempo="240">Cenizas en la eternidad</canciones>
+        <canciones tiempo="321">Posdata</canciones>  
+        <sello>Melendi</sello>
+        <anno>2014</anno>
+    </cd>
+
+    <cd>
+        <titulo>Maldiciones</titulo>
+        <artista>Maka</artista>
+        <canciones tiempo="218">Pena Penita Pena</canciones>
+        <canciones tiempo="200">A caballito</canciones>
+        <canciones tiempo="132">Algo Mejor</canciones>
+        <canciones tiempo="122">El Motivo</canciones>
+        <canciones tiempo="300">Nunca lo superare</canciones>  
+        <sello>Maka</sello>
+        <anno>2020</anno>
+    </cd>
+</cds>
