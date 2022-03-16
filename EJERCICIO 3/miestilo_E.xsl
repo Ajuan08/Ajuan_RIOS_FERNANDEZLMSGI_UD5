@@ -4,8 +4,8 @@
     <xsl:for-each select="root/record">
         <xsl:sort select="date/@when" order="descending" data-type="text"/>
         <xsl:if test="date/year > '1788'">
-            <xsl:value-of select="id"/>, <xsl:value-of select="title">, <xsl:value-of select="date/year">
-        <xsl:if>
+            <xsl:value-of select="id"/>, <xsl:value-of select="title"/>, <xsl:value-of select="date/year"/>
+        </xsl:if>
     </xsl:for-each>
 </xsl:template>
 </xsl:stylesheet>

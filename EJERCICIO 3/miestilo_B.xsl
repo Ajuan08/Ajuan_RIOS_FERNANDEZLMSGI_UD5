@@ -6,7 +6,7 @@
         <xsl:for-each select="text/p">
             <xsl:value-of select="."/>
         <xsl:text>&#xA;</xsl:text>
-        <xsl:for-each>
+        </xsl:for-each>
     </xsl:for-each>
 </xsl:template>
 </xsl:stylesheet>
